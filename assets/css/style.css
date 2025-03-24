@@ -31,6 +31,13 @@ body{
     scroll-behavior: smooth;
     font-family: var(--family-primary);
 }
+
+.list-unstyled{
+    list-style: none;
+    padding: 0;
+}
+
+
 @media (max-width: 767px){
     html, body{
         font-size: 12px;
@@ -119,9 +126,9 @@ body{
 a{
     text-decoration: none;
     transition: .4s all;
-    list-style: none;
-
 }
+
+
 
 
 .btn{
@@ -152,6 +159,7 @@ img{
     max-width: 100%;
     height: auto;
 }
+
 
 
 
