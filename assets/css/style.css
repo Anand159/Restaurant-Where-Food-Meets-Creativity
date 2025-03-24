@@ -79,7 +79,7 @@ body{
 
 
 /* background-color*/
-.bg-Gray{background-color: var(--color-L-Gray);}
+.bg-Grey{background-color: var(--color-L-Gray);}
 .bg-white{background-color: var(--color-white);}
 
 
@@ -88,7 +88,7 @@ body{
 .container{
     max-width: 1400px;
     margin-inline: auto;
-    border: 1px solid black;
+    
 }
 @media (max-width: 1200px){
     .container{
@@ -153,21 +153,9 @@ img{
     height: auto;
 }
 
-.button{
-    display:flex;
-    
-    border:1px solid black;
 
-    
-}
-.Button{
-    display:flex;
-    padding-inline: 10px;
-    padding-block: 10px;
-    border:1px solid black;
 
-    
-}
+
 
 
 
