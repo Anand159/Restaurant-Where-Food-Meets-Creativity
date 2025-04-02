@@ -1,0 +1,369 @@
+
+
+/* Header start */
+header {
+  padding: 15px 0;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+nav li a:hover{
+  color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+
+
+
+
+/* Hamburger Menu */
+.hamburger-icon {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  nav ul {
+      display: none;
+      
+  }
+
+  .hamburger-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+/* Hero Section */
+
+.circles-line{
+  top: -200px;
+  left: -180px;
+  z-index: -10;
+  background-size: cover;
+}
+
+.slogan-logo{
+  top: 70px;
+  left: -50px;
+  z-index: -10;
+  background-size: cover;
+}
+
+
+.bg-banner-1{
+  top:90px;
+  background-size: cover;
+  z-index: -10;
+
+}
+.bg-banner-2{
+  top:80px;
+  right: -70px;
+  background-size: cover;
+  z-index: -10;
+
+}
+.bg-banner-3{
+  bottom: 100px;
+  right: -50px;
+  background-size: cover;
+  z-index: -10;
+
+}
+
+
+
+
+
+/* .hero-banner .container{
+  flex-direction: column-reverse;
+} */
+
+
+
+
+/* our special dish */
+
+.dish-card:hover {
+  background-color: var(--color-white);
+}
+
+.dish-card{
+  max-width: 16.563rem;
+  min-height: 19.375rem;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 30px 3px 30px 3px;
+  padding-inline: 1.25rem;
+  position: relative;
+
+}
+.dish-img{
+  position: absolute;
+  top: -7rem;
+}
+
+
+.MRP{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: var(--color-Charcoal-Blue);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -155px;
+  left: 170px;
+}
+
+
+.our-dish .bottom-pannel .left-pannel{
+  transform: scale(1.2); 
+}
+
+
+
+
+.lef{
+  top:-50px;
+  left: 100px;
+}
+
+.tree{
+  top:-60px;
+
+  right: 170px;
+}
+
+
+.onion{
+  bottom:-40px;
+  left: 200px;
+
+
+}
+.tree-2{
+  bottom:-170px;
+  left: 500px ;
+}
+.onion-2{
+  bottom:-50px;
+  right:-40px;
+
+}
+
+.onion-3{
+  bottom:-50px;
+  right:100px;
+}
+
+.lef-2{
+  top:-80px;
+  left: -50px;
+}
+
+.onion-s{
+  bottom: -100px;
+  left: -100px;
+}
+.tree-3{
+  bottom: -100px;
+  right: -80px;
+
+}
+
+
+
+/* our expects chef */
+
+
+.check{
+  background-image: url("../assets/images/check.svg");
+}
+
+.garlic-big{
+  left: -100px;
+
+
+}
+
+
+
+
+
+/* testmoninal */
+
+.review-card{
+  background-color: var(--color-white);
+   padding-inline: 5.5rem;
+  padding-block: 2rem;
+  position: relative;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 80px 30px 80px 30px;    
+  margin-top: 100px;
+}
+
+
+.testimonial-img{
+  position: absolute;
+  top: -4rem;
+  left: 220px;
+}
+
+
+
+.pan-2{
+  left: -100px;
+
+}
+
+
+
+
+/* footer start */
+.footer-top .container {
+  width: 1151px;
+  height: 407px;
+  background-image: url(../image/footer-restaurant-image.svg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  color: var(--color-white);
+  font-family: var(--family-secondary);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+.footer-top .container h2 {
+  text-align: center;
+}
+
+
+.footer-top form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 634px;
+  margin: auto;
+  background-color:white;
+
+}
+
+
+form input {
+  padding: 1.24rem;
+  padding-block: 1.24rem;
+  padding-left: 1.24rem;
+  border: none;
+  outline: none;
+}
+
+form button {
+  padding-inline: 2.19rem;
+  padding-block: 1rem;
+  text-align: center;
+  background-color: var(--color-primary);
+  margin-right: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-left: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+
+.footer-bottom a:hover{
+  color: var(--color-primary);
+  transform: scale(1.1); 
+}
+
+
+.footer-top .container{
+  top: -200px;
+}
+
+
+
+.pan{
+  top:-400px;
+  left: 80px;
+  z-index: -11;
+  
+
+}
+
+
+@media(max-width:992px){
+  .footer-top .container h2{
+      width: 100%;
+      padding: 2px;
+  }
+
+  .footer-bottom .container{
+    flex-direction: column;
+
+  }
+
+  .footer-bottom .left-pannel{
+    width: 100%;
+
+    margin: auto;
+
+  }
+  .footer-bottom .right-pannel{
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .footer-border{
+    flex-direction: column;
+    margin: auto;
+  }
+}
+
+
+
